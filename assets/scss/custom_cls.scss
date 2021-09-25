@@ -1,0 +1,40 @@
+// .fa-stack {
+//   height: 2em;
+//   width: 2em;
+//   position: relative;
+// }
+
+// .fa-4x {
+//   font-size: 4em;
+// }
+
+// .fa-circle {
+//   background: $primary;
+//   border-radius: 50%;
+// }
+
+// .svg-inline--fa {
+//   width: rem(72px);
+//   height: rem(64px);
+//   path {
+//     fill: $white;
+//   }
+// }
+
+// .svg-inline--fa.fa-w-11 {
+//   width: 0.6875rem;
+// }
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.portfolio-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
