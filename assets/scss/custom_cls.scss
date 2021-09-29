@@ -38,3 +38,10 @@
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.mb-100 {
+  margin-bottom: rem(100px);
+}
+
+.bg-map {
+  background-image: url("#{$img-path}map-image.png");
+}
