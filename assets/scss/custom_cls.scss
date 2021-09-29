@@ -45,3 +45,54 @@
 .bg-map {
   background-image: url("#{$img-path}map-image.png");
 }
+
+.form-floating > .h-c100 {
+  height: calc(100% - 1rem);
+}
+
+.page-section {
+  padding: 6rem 0;
+}
+
+.title {
+  font-family: "Montserrat Bold", sans-serif;
+  line-height: 1.2;
+  margin-bottom: rem(16px);
+  font-size: rem(40px);
+}
+
+.nav-link {
+  font-family: "Montserrat Regular", sans-serif;
+}
+
+.subtitle {
+  font-family: "Roboto Slab";
+  font-style: italic;
+  font-size: rem(16px);
+  line-height: 1.2;
+  margin-bottom: rem(64px);
+}
+h1,
+h2,
+h4,
+button {
+  font-family: "Montserrat Bold", sans-serif;
+}
+
+p {
+  font-family: "Roboto Slab";
+}
+
+.hdl-intro {
+  font-family: "Montserrat Bold", sans-serif;
+  font-size: rem(72px);
+  line-height: 1;
+  margin-bottom: rem(64px);
+}
+
+.hdl-sub-intro {
+  font-family: "Roboto Slab";
+  font-style: italic;
+  font-size: rem(36px);
+  margin-bottom: rem(32px);
+}
