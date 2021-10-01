@@ -85,14 +85,115 @@ p {
 
 .hdl-intro {
   font-family: "Montserrat Bold", sans-serif;
-  font-size: rem(72px);
+  font-size: rem(52px);
   line-height: 1;
-  margin-bottom: rem(64px);
+  margin-bottom: rem(57.6px);
+  @include media-breakpoint-up(md) {
+    font-size: rem(72px);
+  }
 }
 
 .hdl-sub-intro {
   font-family: "Roboto Slab";
   font-style: italic;
-  font-size: rem(36px);
+  font-size: rem(24px);
   margin-bottom: rem(32px);
+  @include media-breakpoint-up(md) {
+    font-size: rem(36px);
+  }
+}
+
+.btn-social {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.member {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.img-brand {
+  height: 2.75rem;
+}
+
+.footer-text {
+  font-size: rem(14.4px);
+  font-family: "Montserrat Regular", sans-serif;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+  letter-spacing: 0.0225rem;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.btn-lg {
+  font-size: rem(18px);
+}
+
+.navbar-toggler {
+  font-size: rem(12px);
+  padding: rem(12px);
+}
+
+.brand {
+  width: rem(140px);
+  height: rem(24px);
+  @include media-breakpoint-up(lg) {
+    width: rem(187px);
+    height: rem(32px);
+  }
+}
+
+.mb-04 {
+  margin-bottom: rem(5px);
+}
+
+.lh-175 {
+  line-height: 1.75;
+}
+.portfolio-item__content {
+  font-style: italic;
+  color: #6c757d;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0;
+}
+
+.portfolio-item__hdl {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.portfolio-item {
+  background: $white;
+}
+
+.timeline {
+  h4 > span {
+    margin-bottom: rem(8px);
+  }
+  p {
+    line-height: rem(28px);
+  }
+  img {
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    height: rem(80px);
+    width: rem(80px);
+    @include media-breakpoint-up(md) {
+      height: rem(100px);
+      width: rem(100px);
+    }
+    @include media-breakpoint-up(lg) {
+      height: rem(150px);
+      width: rem(150px);
+    }
+    @include media-breakpoint-up(xl) {
+      height: rem(170px);
+      width: rem(170px);
+    }
+  }
 }
